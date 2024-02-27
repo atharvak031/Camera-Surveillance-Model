@@ -30,7 +30,7 @@ def load_model():
 
     # Create an instance of the model
     #This is the path for loading the model, make sure that this path is correct 
-    model = tf.keras.models.load_model('D:\Documents\Cling Internship Documents\Suspicious_Activity_Detection_Model\venv\model')
+    model = tf.keras.models.load_model('model')
     return model
 
 # Load the model
