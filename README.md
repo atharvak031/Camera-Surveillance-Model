@@ -50,7 +50,7 @@ pip install tensorflow
 
 - For loading model:
 ```bash
-#Change the file path inside the quotes
+#Change the file path inside the quotes (use finalweights.h5 file)
 model = tf.keras.models.load_model('filepath')
 ```
 
